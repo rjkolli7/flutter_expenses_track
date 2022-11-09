@@ -1,0 +1,30 @@
+name: dashboard
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+publish_to: none
+# repository: https://github.com/my_org/my_repo
+
+environment:
+  sdk: '>=2.19.0-374.0.dev <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_integration:
+    path: ../../firebase_integration
+  components:
+    path: ../../core/components
+  expenses:
+    path: ../expenses
+  incomes:
+    path: ../incomes
+  profile:
+    path: ../profile
+  add_income_expense:
+    path: ../add_income_expense
+  get: ^4.6.5
+  convex_bottom_bar: ^3.1.0+1
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.16.0
